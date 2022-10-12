@@ -1,0 +1,13 @@
+1. Для переворачивания числа:
+string ReverseString(string str)
+{
+    string result = String.Empty;
+
+    for (int i = 0; i < str.Length; i++)
+    {
+        result += str[str.Length - 1 - i];
+    }
+
+    return result;
+}
+
